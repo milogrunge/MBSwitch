@@ -68,8 +68,9 @@
 
     //agregar el chk al sw reemplzara el chk original por el sw
     $elDiv.append($elChk);
-    $('#chk').replaceWith($elDiv);
+    $this.replaceWith($elDiv);
 
     return $elChk
+
   }//fin definicón de MBSwitch
 }(jQuery));
